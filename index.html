@@ -9,13 +9,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="">
     <header>
-        <h2 class="text-6xl">Hunting Phone</h2>
+        <h2 class="bg-black text-white p-10 text-3xl lg:text-7xl text-center hover:[text-shadow:0_0_10px_cyan,0_0_20px_cyan,0_0_30px_cyan,0_0_40px_cyan] [text-shadow:0_0_20px_cyan,0_0_40px_cyan,0_0_60px_cyan,0_0_80px_cyan] font-serif">HU<span class="text-5xl lg:text-8xl [text-shadow:0_0_20px_red,0_0_40px_red]">N</span>TING PH<span class="text-5xl lg:text-8xl [text-shadow:0_0_20px_red,0_0_40px_red]">O</span>NE</h2>
     </header>
     <main class="container mx-auto mt-8">
 
-        <section class="bg-gray-100 p-4 m-4">
+        <section class="p-4 flex flex-row items-center justify-center">
             <input id="search-field" type="text" placeholder="search..." class="input input-bordered w-full max-w-xs" />
             <button onclick="handleSearch()" class="btn btn-accent">Search</button>
         </section>
