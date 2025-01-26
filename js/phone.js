@@ -39,11 +39,11 @@ const displayPhones = (phones, isShowAll) =>{
         <figure class="relative">
             <img src="${phone.image}" alt="${phone.phone_name}" class="w-full h-64 object-contain bg-gray-100" />
             <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
-            <figcaption class="absolute bottom-0 text-white text-lg font-semibold p-4">${phone.phone_name}</figcaption>
+            <figcaption class="absolute bottom-0 text-white text-lg font-semibold p-4">${phone.brand}</figcaption>
         </figure>
         <div class="card-body p-6">
             <h2 class="text-2xl font-bold text-gray-800 mb-2">${phone.phone_name}</h2>
-            <p class="text-gray-600 mb-4">If a dog chews shoes whose shoes does he choose?</p>
+            <p class="text-gray-600 font-semibold mb-4">Slug: ${phone.slug}</p>
             <div class="card-actions flex justify-end">
                 <button class="btn btn-primary px-4 py-2 rounded-md bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold shadow-md hover:from-blue-600 hover:to-purple-700 transition-colors duration-200">
                     Buy Now
